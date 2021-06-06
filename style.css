@@ -111,6 +111,7 @@ nav ul li a:hover{
     background-color: #01204F;
     border-radius: 20px;
     box-shadow: 4px 10px 30px rgba (24,139,119,0.2);
+    margin-top: 10px;
 }
 .portfolio-btn:hover,
 .resume-btn:hover,
@@ -248,6 +249,7 @@ nav ul li a:hover{
 }
 .recommendations-heading h3{
     color:#FFFFFF;
+    margin-top: 10px;
 }
 .r-box-container{
 	display: flex;
@@ -284,6 +286,8 @@ nav ul li a:hover{
 }
 .recommendations-box h3{
     line-height: 10px;
+    margin-top: 15px;
+    margin-bottom:10px;
 }
 .recommendations-box p{
     color:#747474;
@@ -472,16 +476,7 @@ footer p{
 	color:#747474;
 	font-size: 0.9rem;
 }
-.project123-box-text a{
+/* .project123-box-text a{
     color:#747474;
 	font-size: 0.9rem;
-}
-
-.portfolio-btn:hover,
-.resume-btn:hover,
-.recent-btn:hover,
-.recommendations-box a:hover,
-.contact-input a:hover{
-    background-color:#8e5572;
-    transition: all ease 0.2s;
-}
+} */
