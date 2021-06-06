@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */ 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* if you want to change the font to futura or poppins, learn or downlaod it etc. */
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing:border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+/* navigation menu */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba (0,0,0, 0.02);
+    position: fixed;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+    background-color: #FFFFFF; 
+}
+.logo img{
+    height: 45px;
+}
+nav ul{ 
+    display: flex;
+}
+nav ul li a{
+    height: 50px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #01204F;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    background-color: #8e5572;
+    color: #FFFFFF;
+    box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    transition: all ease 0.2s;
+}
+/* content */
+.photography{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #56A3A6;
+}
+.photographytitle{
+    margin:auto;
+    width: 750px;
+}
+.photographytitle h1{
+    font-size: 3.5rem;
+    color: #01204F;
+    line-height:25px;
+    text-align:center;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+.photographytitle p{
+    color: #01204F;
+    text-align:center;
+    line-height: 25px;
+    font-size: 17px;
+    
+}
+/* gallery */
+.container{
+    width: 60%;
+    margin: 2rem auto;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat (9, 200px);
+    grid-template-rows: repeat (9, 200px);
+    grid-gap: 1px;
+    margin-top: 550px;
+}
+.gallery__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--2 {
+    grid-column-start:4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--3 {
+    grid-column-start:7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--4 {
+    grid-column-start:1;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.gallery__item--5{
+    grid-column-start:1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+.gallery__item--6{
+    grid-column-start:6;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rbga(232,232,232,0.5);
+    background-color: #FFFFFF;
+}
+footer p{
+    margin: 15px 0px;
+    color: #5f5f5f;
+    font-size: 0.9rem;
+}
+.fab {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fab:hover {
+    opacity: 0.7;
+  }
+  
+  /* Instagram */
+  .fa-instagram-square {
+    background: #FFFFFF;
+    color: #5f5f5f;
+  }
+  /* Linkedin */
+  .fa-linkedin{
+    background: #FFFFFF;
+    color: #5f5f5f;
+  }
+  /* Facebook */
+  .fa-facebook-square {
+    background: #FFFFFF;
+    color: #5f5f5f;
+  }
+  
+  /* Twitter */
+  .fa-twitter-square {
+    background: #FFFFFF;
+    color:#5f5f5f
+  }
